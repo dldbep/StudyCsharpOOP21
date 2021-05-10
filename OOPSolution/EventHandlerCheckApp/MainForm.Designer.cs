@@ -1,4 +1,6 @@
 ﻿
+using System;
+
 namespace EventHandlerCheckApp
 {
     partial class MainForm
@@ -98,6 +100,16 @@ namespace EventHandlerCheckApp
             this.ResumeLayout(false);
             this.PerformLayout();
 
+        }
+
+        private void TxtPassword_TextChanged(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
+        }
+
+        private void TxtUserID_TextChanged(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
         }
 
         #endregion
