@@ -12,7 +12,7 @@ namespace PropertyTestApp
         // private string name;
         //color생략
 
-        public string Name { get; set; } = "멍멍이";
+        public string Name { get; set; }
         public string color { get; set; } = "누렁";
         public int Age
         {
